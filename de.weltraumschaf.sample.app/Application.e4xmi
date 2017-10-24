@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_7iu4ULiVEeea67fRCy9evQ" elementId="org.eclipse.e4.application" bindingContexts="_7iuRQLiVEeea67fRCy9evQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_i1ovoLiZEeea67fRCy9evQ" elementId="de.weltraumschaf.sample.app.trimmedwindow.hello" selectedElement="_Rg34sLiYEeea67fRCy9evQ" label="Hello">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_Rg34sLiYEeea67fRCy9evQ" elementId="de.weltraumschaf.sample.app.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_WxVswLiYEeea67fRCy9evQ" elementId="de.weltraumschaf.sample.app.perspective.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_imwbkLiYEeea67fRCy9evQ" elementId="de.weltraumschaf.sample.app.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:Part" xmi:id="_oGI1YLiYEeea67fRCy9evQ" elementId="de.weltraumschaf.sample.app.part.0" containerData="80" contributionURI="bundleclass://de.weltraumschaf.sample.ui/de.weltraumschaf.sample.ui.DetailPart"/>
+          <children xsi:type="basic:Part" xmi:id="_pG35oLiYEeea67fRCy9evQ" elementId="de.weltraumschaf.sample.app.part.1" containerData="20" contributionURI="bundleclass://de.weltraumschaf.sample.ui/de.weltraumschaf.sample.ui.ListPart"/>
+        </children>
+        <variables>currentTime</variables>
+      </children>
+    </children>
+  </children>
+  <rootContext xmi:id="_7iuRQLiVEeea67fRCy9evQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_7iu4UbiVEeea67fRCy9evQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_7iu4UriVEeea67fRCy9evQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_7iu4U7iVEeea67fRCy9evQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_7iu4VLiVEeea67fRCy9evQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_7iu4VbiVEeea67fRCy9evQ" elementId="org.eclipse.fx.ui.keybindings.e4.service" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_7iu4VriVEeea67fRCy9evQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_7iu4V7iVEeea67fRCy9evQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_7iu4WLiVEeea67fRCy9evQ" elementId="org.eclipse.fx.ui.keybindings.e4.model" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingProcessingAddon"/>
+  <addons xmi:id="_7iu4WbiVEeea67fRCy9evQ" elementId="org.eclipse.e4.ui.workbench.addons.HandlerProcessingAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: 
+Bundle-SymbolicName: de.weltraumschaf.sample.ui
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Require-Bundle: javax.inject,
+ org.eclipse.e4.core.contexts;bundle-version="1.6.0",
+ org.eclipse.fx.core.di;bundle-version="3.1.0",
+ org.eclipse.e4.core.services,
+ org.eclipse.e4.ui.di,
+ org.eclipse.fx.core;bundle-version="3.1.0"
+Import-Package: org.eclipse.e4.core.di.annotations
